@@ -11,4 +11,5 @@
 .blog-post table th,
 .blog-post table td{ border:1px solid #666; padding:4px;}
 .blog-post table{ width:100%;border:1px solid #666; margin-bottom:10px;}
-.fanyiText{ display:none; border:1px solid #4900FF; padding:2px; margin:5px; }
+.fanyi{ text-decoration:underline}
+.fanyiText{ display:none; padding:2px; margin:5px; }
