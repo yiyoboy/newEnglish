@@ -5,10 +5,10 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 .container .jumbotron, .container-fluid .jumbotron{ padding:20px}
-.container .jumbotron h2, .container-fluid .jumbotron h2{ margin-top:10px}
+.container .jumbotron h2, .container-fluid .jumbotron h2{ margin-top:10px} 
 .jumbotron .photo{ max-width:100%;}
 .blog-post li{ font-size:18px!important;}
 .blog-post table th,
 .blog-post table td{ border:1px solid #666; padding:4px;}
 .blog-post table{ width:100%;border:1px solid #666; margin-bottom:10px;}
-.fanyiText{ display:none; border:1px solid #4900FF; padding:2px; margin:5px; display:inline-block;}
+.fanyiText{ display:none; border:1px solid #4900FF; padding:2px; margin:5px; }
