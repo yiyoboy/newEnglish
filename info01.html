@@ -14,6 +14,14 @@
 <link rel="stylesheet" href="css/my.css">
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+			$(".fanyi").click(function(){
+					$(this).next(".fanyiText").toggle();
+				})
+		})
+</script>
+
 <title>test</title>
 </head>
 
@@ -28,16 +36,20 @@
 			<div class="jumbotron">
 				<h2>PIC 1</h2>
 				<p><img src="images/RLT P1.png" class="photo" alt=""/></p>
-				<p>A long,very long time ago,rabbits had long,very long tails.<br> One day,a long-tailed radbbit came outside to play.</p>
-				<p><span class="small"></span><audio controls src="mp3/read/01.mp3"></audio> </p>
+				<p>A long,very long time ago,rabbits had long,very long tails. One day,a long-tailed radbbit came outside to play. <a href="#this" class="fanyi btn btn-sm btn-default">查看翻译</a>
+					<strong class="fanyiText">很久很久以前，兔子有很长的尾巴。 一天，一个长尾巴的兔子去外边玩。</strong>
+				</p>
+				<p><audio controls src="mp3/read/01.mp3"></audio> </p>
 			</div>
 			<!--jumbotron-->
 			<!--jumbotron-->
 			<div class="blog-post">
 				<h3>I.Pic Description: </h3>
 				<ul>
-					<li>What can you see in this picture? </li>
-					<li>Words suggested: field, bush, jump. </li>
+					<li>What can you see in this picture? <a href="#this" class="fanyi btn btn-default">查看翻译</a>
+					<strong class="fanyiText">你能在图片中看到什么？</strong></li>
+					<li>Words suggested: field, bush, jump. <a href="#this" class="fanyi btn btn-default">查看翻译</a>
+					<strong class="fanyiText">field：固定  ，bush：灌木， jump:跳</strong></li>
 				</ul>
 				<h3>II.Words you must learn: </h3>
 				
@@ -48,15 +60,22 @@
 							<li>[exercise]: making sentences with ‘long’ X 5</li>
 						</ol>
 					</li>
-					<li><h4>time [taɪm] n. 时间
+					<li><h4>time [taɪm] n. 时间<br>
 [Note]: 不可数名词，变为复数时为 time</h4>
 						<ol>
-							<li>long time no see. </li>
-							<li>What is the time? </li>
-							<li>What time is it? </li>
-							<li>What time did you get up? </li>
-							<li>What time did she come? </li>
-							<li>What time are you going to go to school? </li>
+							<li>long time no see. <a href="#this" class="fanyi btn btn-default">查看翻译</a>
+					<strong class="fanyiText">好久不见</strong></li>
+							<li>What is the time? <a href="#this" class="fanyi btn btn-default">查看翻译</a>
+					<strong class="fanyiText">几点了？</strong></li>
+							<li>What time is it? <a href="#this" class="fanyi btn btn-default">查看翻译</a>
+					<strong class="fanyiText">几点了</strong></li>
+							<li>What time did you get up? 
+							<a href="#this" class="fanyi btn btn-default">查看翻译</a>
+					<strong class="fanyiText">你几点起床？（get up 起床）</strong></li>
+							<li>What time did she come? <a href="#this" class="fanyi btn btn-default">查看翻译</a>
+					<strong class="fanyiText">她几点来的？（come 来）</strong></li>
+							<li>What time are you going to go to school? <a href="#this" class="fanyi btn btn-default">查看翻译</a>
+					<strong class="fanyiText">你将要几点去学校？（is going to 将要 ）</strong></li>
 							<li>What time are we going to go to our English class?</li>
 							<li>What time do you go to bed every day? </li>
 							<li>What time does he brush his teeth every day? </li>
