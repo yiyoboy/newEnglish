@@ -14,14 +14,7 @@
 <link rel="stylesheet" href="css/my.css">
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="js/bootstrap.min.js"></script>
-<script type="text/javascript">
-	$(function(){
-		$(".fanyiText").hide()
-			$(".fanyi").click(function(){
-					$(this).next(".fanyiText").toggle();
-				})
-		})
-</script>
+
 
 <title>PIC 1 </title>
 </head>
@@ -147,5 +140,13 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).ready(function(){ 
+
+			$(".fanyi").click(function(){
+					$(this).next(".fanyiText").toggle();
+				})
+		})
+</script>
 </body>
 </html>
